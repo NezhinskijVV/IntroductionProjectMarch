@@ -1,4 +1,4 @@
-package ru.itsjava;
+package ru.itsjava.introduction.lecture;
 
 public class Main {
     public static void main(String[] args) { //psvm
