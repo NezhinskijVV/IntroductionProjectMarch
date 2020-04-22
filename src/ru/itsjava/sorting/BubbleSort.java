@@ -23,7 +23,12 @@ public class BubbleSort {
 
         String[] namesArray = new String[]{"Евгений", "Ярослав", "Георгий", "Дмитрий", "Даниил", "Виталий"};
 //        String[] namesArray = new String[]{"Daniil", "Evgeniy", "Yaroslav", "Georgie", "Dmitriy", "Vitaliy"};
+
+        System.out.println(namesArray[0].charAt(0) - namesArray[1].charAt(0));
         System.out.println("Изначальный массив:     " + Arrays.toString(namesArray));
+
+//        if (array[i].charAt(0) > array[j].charAt(0))
+
 
         for (int j = 0; j < namesArray.length; j++) {
             for (int i = 0; i < namesArray.length - 1 - j; i++) {
